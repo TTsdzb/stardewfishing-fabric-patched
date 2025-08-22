@@ -129,7 +129,7 @@ public class FishingMinigame {
             screen.reelSoundTimer = 1;
         }
 
-        if (bobberOnFish) {
+        if (true) {
             points += 1;
             if (points >= POINTS_TO_FINISH) {
                 screen.setResult(true, (double) successTicks / totalTicks);
